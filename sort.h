@@ -51,4 +51,7 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
+
+/* swap int function used in every file */
+void swap_int(int *first_int, int *second_int);
 #endif /* SORT_H */
