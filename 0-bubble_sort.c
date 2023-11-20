@@ -16,7 +16,7 @@ void bubble_sort(int *array, size_t size)
 
 	while (i < n && array)
 	{
-		if (i == n - 1)
+	if (i == n - 1)
 		{
 			i = 0;
 			flag = 0;
@@ -35,15 +35,7 @@ void bubble_sort(int *array, size_t size)
 	}
 }
 /**
-  * swap_int - swap two integers
-  * @first_int: integer 1
-  * @second_int: interger 2
-  */
-void swap_int(int *first_int, int *second_int)
-{
-	int temp;
-
-	temp = *first_int;
-	*first_int = *second_int;
-	*second_int = temp;
-}
+ * swap_ints - Swap two integers in an array.
+ * @a: The first integer to swap.
+ * @b: The second integer to swap.
+ */
