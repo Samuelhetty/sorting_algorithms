@@ -33,3 +33,6 @@ void bubble_sort(int *array, size_t size)
 			break;
 	}
 }
+/**
+  * swap_int - swap two integers
+  * @first_int: integer 1
