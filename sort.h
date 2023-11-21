@@ -59,4 +59,10 @@ void swap_insert(listint_t *p_node, listint_t *tmp, listint_t *n_node, listint_t
 /* quick sort v. 1 */
 void quick_s(int wall, int pivot, int *array, size_t size);
 int partition(int wall, int pivot, int *array, size_t size);
+
+/* Merge Sort */
+void sort(int start, int end, int *a, int *copy);
+void merge(int start, int end, int *a, int *copy);
+
+
 #endif /* SORT_H */
