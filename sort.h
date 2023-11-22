@@ -54,7 +54,8 @@ void quick_sort_hoare(int *array, size_t size);
 
 /* swap function used in every file */
 void swap_int(int *first_int, int *second_int);
-void swap_insert(listint_t *p_node, listint_t *tmp, listint_t *n_node, listint_t **h);
+void swap_insert(listint_t *p_node, listint_t *tmp,
+		listint_t *n_node, listint_t **h);
 
 /* quick sort v. 1 */
 void quick_s(int wall, int pivot, int *array, size_t size);
